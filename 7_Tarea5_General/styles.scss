@@ -1,0 +1,126 @@
+@mixin bgFont {
+    border-radius: 10px;
+    height: 260px;
+    margin: 10px 0PX 10PX 0px;
+}
+
+@mixin nameFont {
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: white;
+}
+
+@mixin gradFont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.555);
+    font-weight: 100;
+}
+
+
+@mixin cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 25px;
+    padding-top: 20px;
+}
+
+
+@mixin contUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 145px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+
+@mixin contHeader {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 7px;
+    color: rgb(233, 229, 229);
+}
+
+@mixin contTxt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.555);
+    padding-bottom: 10px;
+}
+
+
+body{
+    background-color: #d0d6db;
+}
+
+
+#General{
+    margin: 40px 5px 20px 45px;
+}
+
+.col1ADiv{
+    @include bgFont();
+    background-color: #723CCB;
+}
+
+.col1BDiv{
+    @include bgFont();
+    background-color: #53627e;
+}
+
+.col2Div{
+    @include bgFont();
+    background-color: white;
+    height: 520px;
+}
+
+.col2ADiv{
+    @include bgFont();
+    background-color: white;
+}
+
+.col2BDiv{
+    @include bgFont();
+    background-color:#242A36;
+}
+
+.cont1, .cont2, .cont3, .cont4, .cont5{
+@include cont();
+    .contUser1, .contUser2, .contUser3, .contUser4, .contUser5{
+        @include contUser();
+            .img1, .img2, .img3, .img4, .img5{
+                height: 40px;
+                width: 40px;        }
+            .name1, .name2, .name3, .name4, .name5{
+                @include nameFont();}
+            
+            .grad1, .grad2, .grad3, .grad4, .grad5{
+                @include gradFont();}
+
+            .name3, .grad3, .name5, .grad5{        
+                    color: #53627e;}
+    }
+
+    .contHeader1, .contHeader2, .contHeader3, .contHeader4, .contHeader5{
+        @include contHeader();
+    }
+
+    .contTxt1, .contTxt2, .contTxt3, .contTxt4, .contTxt5{
+        @include contTxt();
+    }
+
+    .contHeader3, .contTxt3, .contHeader5, .contTxt5{        
+        color: #53627e;
+    }
+}
+
+
+
+

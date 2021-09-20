@@ -1,0 +1,123 @@
+body {
+  background-color: #d0d6db;
+}
+
+#General {
+  margin: 40px 5px 20px 45px;
+}
+
+.col1ADiv {
+  border-radius: 10px;
+  height: 260px;
+  margin: 10px 0PX 10PX 0px;
+  background-color: #723CCB;
+}
+
+.col1BDiv {
+  border-radius: 10px;
+  height: 260px;
+  margin: 10px 0PX 10PX 0px;
+  background-color: #53627e;
+}
+
+.col2Div {
+  border-radius: 10px;
+  height: 260px;
+  margin: 10px 0PX 10PX 0px;
+  background-color: white;
+  height: 520px;
+}
+
+.col2ADiv {
+  border-radius: 10px;
+  height: 260px;
+  margin: 10px 0PX 10PX 0px;
+  background-color: white;
+}
+
+.col2BDiv {
+  border-radius: 10px;
+  height: 260px;
+  margin: 10px 0PX 10PX 0px;
+  background-color: #242A36;
+}
+
+.cont1, .cont2, .cont3, .cont4, .cont5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px;
+  padding-top: 20px;
+}
+
+.cont1 .contUser1, .cont1 .contUser2, .cont1 .contUser3, .cont1 .contUser4, .cont1 .contUser5, .cont2 .contUser1, .cont2 .contUser2, .cont2 .contUser3, .cont2 .contUser4, .cont2 .contUser5, .cont3 .contUser1, .cont3 .contUser2, .cont3 .contUser3, .cont3 .contUser4, .cont3 .contUser5, .cont4 .contUser1, .cont4 .contUser2, .cont4 .contUser3, .cont4 .contUser4, .cont4 .contUser5, .cont5 .contUser1, .cont5 .contUser2, .cont5 .contUser3, .cont5 .contUser4, .cont5 .contUser5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 145px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 10px;
+}
+
+.cont1 .contUser1 .img1, .cont1 .contUser1 .img2, .cont1 .contUser1 .img3, .cont1 .contUser1 .img4, .cont1 .contUser1 .img5, .cont1 .contUser2 .img1, .cont1 .contUser2 .img2, .cont1 .contUser2 .img3, .cont1 .contUser2 .img4, .cont1 .contUser2 .img5, .cont1 .contUser3 .img1, .cont1 .contUser3 .img2, .cont1 .contUser3 .img3, .cont1 .contUser3 .img4, .cont1 .contUser3 .img5, .cont1 .contUser4 .img1, .cont1 .contUser4 .img2, .cont1 .contUser4 .img3, .cont1 .contUser4 .img4, .cont1 .contUser4 .img5, .cont1 .contUser5 .img1, .cont1 .contUser5 .img2, .cont1 .contUser5 .img3, .cont1 .contUser5 .img4, .cont1 .contUser5 .img5, .cont2 .contUser1 .img1, .cont2 .contUser1 .img2, .cont2 .contUser1 .img3, .cont2 .contUser1 .img4, .cont2 .contUser1 .img5, .cont2 .contUser2 .img1, .cont2 .contUser2 .img2, .cont2 .contUser2 .img3, .cont2 .contUser2 .img4, .cont2 .contUser2 .img5, .cont2 .contUser3 .img1, .cont2 .contUser3 .img2, .cont2 .contUser3 .img3, .cont2 .contUser3 .img4, .cont2 .contUser3 .img5, .cont2 .contUser4 .img1, .cont2 .contUser4 .img2, .cont2 .contUser4 .img3, .cont2 .contUser4 .img4, .cont2 .contUser4 .img5, .cont2 .contUser5 .img1, .cont2 .contUser5 .img2, .cont2 .contUser5 .img3, .cont2 .contUser5 .img4, .cont2 .contUser5 .img5, .cont3 .contUser1 .img1, .cont3 .contUser1 .img2, .cont3 .contUser1 .img3, .cont3 .contUser1 .img4, .cont3 .contUser1 .img5, .cont3 .contUser2 .img1, .cont3 .contUser2 .img2, .cont3 .contUser2 .img3, .cont3 .contUser2 .img4, .cont3 .contUser2 .img5, .cont3 .contUser3 .img1, .cont3 .contUser3 .img2, .cont3 .contUser3 .img3, .cont3 .contUser3 .img4, .cont3 .contUser3 .img5, .cont3 .contUser4 .img1, .cont3 .contUser4 .img2, .cont3 .contUser4 .img3, .cont3 .contUser4 .img4, .cont3 .contUser4 .img5, .cont3 .contUser5 .img1, .cont3 .contUser5 .img2, .cont3 .contUser5 .img3, .cont3 .contUser5 .img4, .cont3 .contUser5 .img5, .cont4 .contUser1 .img1, .cont4 .contUser1 .img2, .cont4 .contUser1 .img3, .cont4 .contUser1 .img4, .cont4 .contUser1 .img5, .cont4 .contUser2 .img1, .cont4 .contUser2 .img2, .cont4 .contUser2 .img3, .cont4 .contUser2 .img4, .cont4 .contUser2 .img5, .cont4 .contUser3 .img1, .cont4 .contUser3 .img2, .cont4 .contUser3 .img3, .cont4 .contUser3 .img4, .cont4 .contUser3 .img5, .cont4 .contUser4 .img1, .cont4 .contUser4 .img2, .cont4 .contUser4 .img3, .cont4 .contUser4 .img4, .cont4 .contUser4 .img5, .cont4 .contUser5 .img1, .cont4 .contUser5 .img2, .cont4 .contUser5 .img3, .cont4 .contUser5 .img4, .cont4 .contUser5 .img5, .cont5 .contUser1 .img1, .cont5 .contUser1 .img2, .cont5 .contUser1 .img3, .cont5 .contUser1 .img4, .cont5 .contUser1 .img5, .cont5 .contUser2 .img1, .cont5 .contUser2 .img2, .cont5 .contUser2 .img3, .cont5 .contUser2 .img4, .cont5 .contUser2 .img5, .cont5 .contUser3 .img1, .cont5 .contUser3 .img2, .cont5 .contUser3 .img3, .cont5 .contUser3 .img4, .cont5 .contUser3 .img5, .cont5 .contUser4 .img1, .cont5 .contUser4 .img2, .cont5 .contUser4 .img3, .cont5 .contUser4 .img4, .cont5 .contUser4 .img5, .cont5 .contUser5 .img1, .cont5 .contUser5 .img2, .cont5 .contUser5 .img3, .cont5 .contUser5 .img4, .cont5 .contUser5 .img5 {
+  height: 40px;
+  width: 40px;
+}
+
+.cont1 .contUser1 .name1, .cont1 .contUser1 .name2, .cont1 .contUser1 .name3, .cont1 .contUser1 .name4, .cont1 .contUser1 .name5, .cont1 .contUser2 .name1, .cont1 .contUser2 .name2, .cont1 .contUser2 .name3, .cont1 .contUser2 .name4, .cont1 .contUser2 .name5, .cont1 .contUser3 .name1, .cont1 .contUser3 .name2, .cont1 .contUser3 .name3, .cont1 .contUser3 .name4, .cont1 .contUser3 .name5, .cont1 .contUser4 .name1, .cont1 .contUser4 .name2, .cont1 .contUser4 .name3, .cont1 .contUser4 .name4, .cont1 .contUser4 .name5, .cont1 .contUser5 .name1, .cont1 .contUser5 .name2, .cont1 .contUser5 .name3, .cont1 .contUser5 .name4, .cont1 .contUser5 .name5, .cont2 .contUser1 .name1, .cont2 .contUser1 .name2, .cont2 .contUser1 .name3, .cont2 .contUser1 .name4, .cont2 .contUser1 .name5, .cont2 .contUser2 .name1, .cont2 .contUser2 .name2, .cont2 .contUser2 .name3, .cont2 .contUser2 .name4, .cont2 .contUser2 .name5, .cont2 .contUser3 .name1, .cont2 .contUser3 .name2, .cont2 .contUser3 .name3, .cont2 .contUser3 .name4, .cont2 .contUser3 .name5, .cont2 .contUser4 .name1, .cont2 .contUser4 .name2, .cont2 .contUser4 .name3, .cont2 .contUser4 .name4, .cont2 .contUser4 .name5, .cont2 .contUser5 .name1, .cont2 .contUser5 .name2, .cont2 .contUser5 .name3, .cont2 .contUser5 .name4, .cont2 .contUser5 .name5, .cont3 .contUser1 .name1, .cont3 .contUser1 .name2, .cont3 .contUser1 .name3, .cont3 .contUser1 .name4, .cont3 .contUser1 .name5, .cont3 .contUser2 .name1, .cont3 .contUser2 .name2, .cont3 .contUser2 .name3, .cont3 .contUser2 .name4, .cont3 .contUser2 .name5, .cont3 .contUser3 .name1, .cont3 .contUser3 .name2, .cont3 .contUser3 .name3, .cont3 .contUser3 .name4, .cont3 .contUser3 .name5, .cont3 .contUser4 .name1, .cont3 .contUser4 .name2, .cont3 .contUser4 .name3, .cont3 .contUser4 .name4, .cont3 .contUser4 .name5, .cont3 .contUser5 .name1, .cont3 .contUser5 .name2, .cont3 .contUser5 .name3, .cont3 .contUser5 .name4, .cont3 .contUser5 .name5, .cont4 .contUser1 .name1, .cont4 .contUser1 .name2, .cont4 .contUser1 .name3, .cont4 .contUser1 .name4, .cont4 .contUser1 .name5, .cont4 .contUser2 .name1, .cont4 .contUser2 .name2, .cont4 .contUser2 .name3, .cont4 .contUser2 .name4, .cont4 .contUser2 .name5, .cont4 .contUser3 .name1, .cont4 .contUser3 .name2, .cont4 .contUser3 .name3, .cont4 .contUser3 .name4, .cont4 .contUser3 .name5, .cont4 .contUser4 .name1, .cont4 .contUser4 .name2, .cont4 .contUser4 .name3, .cont4 .contUser4 .name4, .cont4 .contUser4 .name5, .cont4 .contUser5 .name1, .cont4 .contUser5 .name2, .cont4 .contUser5 .name3, .cont4 .contUser5 .name4, .cont4 .contUser5 .name5, .cont5 .contUser1 .name1, .cont5 .contUser1 .name2, .cont5 .contUser1 .name3, .cont5 .contUser1 .name4, .cont5 .contUser1 .name5, .cont5 .contUser2 .name1, .cont5 .contUser2 .name2, .cont5 .contUser2 .name3, .cont5 .contUser2 .name4, .cont5 .contUser2 .name5, .cont5 .contUser3 .name1, .cont5 .contUser3 .name2, .cont5 .contUser3 .name3, .cont5 .contUser3 .name4, .cont5 .contUser3 .name5, .cont5 .contUser4 .name1, .cont5 .contUser4 .name2, .cont5 .contUser4 .name3, .cont5 .contUser4 .name4, .cont5 .contUser4 .name5, .cont5 .contUser5 .name1, .cont5 .contUser5 .name2, .cont5 .contUser5 .name3, .cont5 .contUser5 .name4, .cont5 .contUser5 .name5 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  color: white;
+}
+
+.cont1 .contUser1 .grad1, .cont1 .contUser1 .grad2, .cont1 .contUser1 .grad3, .cont1 .contUser1 .grad4, .cont1 .contUser1 .grad5, .cont1 .contUser2 .grad1, .cont1 .contUser2 .grad2, .cont1 .contUser2 .grad3, .cont1 .contUser2 .grad4, .cont1 .contUser2 .grad5, .cont1 .contUser3 .grad1, .cont1 .contUser3 .grad2, .cont1 .contUser3 .grad3, .cont1 .contUser3 .grad4, .cont1 .contUser3 .grad5, .cont1 .contUser4 .grad1, .cont1 .contUser4 .grad2, .cont1 .contUser4 .grad3, .cont1 .contUser4 .grad4, .cont1 .contUser4 .grad5, .cont1 .contUser5 .grad1, .cont1 .contUser5 .grad2, .cont1 .contUser5 .grad3, .cont1 .contUser5 .grad4, .cont1 .contUser5 .grad5, .cont2 .contUser1 .grad1, .cont2 .contUser1 .grad2, .cont2 .contUser1 .grad3, .cont2 .contUser1 .grad4, .cont2 .contUser1 .grad5, .cont2 .contUser2 .grad1, .cont2 .contUser2 .grad2, .cont2 .contUser2 .grad3, .cont2 .contUser2 .grad4, .cont2 .contUser2 .grad5, .cont2 .contUser3 .grad1, .cont2 .contUser3 .grad2, .cont2 .contUser3 .grad3, .cont2 .contUser3 .grad4, .cont2 .contUser3 .grad5, .cont2 .contUser4 .grad1, .cont2 .contUser4 .grad2, .cont2 .contUser4 .grad3, .cont2 .contUser4 .grad4, .cont2 .contUser4 .grad5, .cont2 .contUser5 .grad1, .cont2 .contUser5 .grad2, .cont2 .contUser5 .grad3, .cont2 .contUser5 .grad4, .cont2 .contUser5 .grad5, .cont3 .contUser1 .grad1, .cont3 .contUser1 .grad2, .cont3 .contUser1 .grad3, .cont3 .contUser1 .grad4, .cont3 .contUser1 .grad5, .cont3 .contUser2 .grad1, .cont3 .contUser2 .grad2, .cont3 .contUser2 .grad3, .cont3 .contUser2 .grad4, .cont3 .contUser2 .grad5, .cont3 .contUser3 .grad1, .cont3 .contUser3 .grad2, .cont3 .contUser3 .grad3, .cont3 .contUser3 .grad4, .cont3 .contUser3 .grad5, .cont3 .contUser4 .grad1, .cont3 .contUser4 .grad2, .cont3 .contUser4 .grad3, .cont3 .contUser4 .grad4, .cont3 .contUser4 .grad5, .cont3 .contUser5 .grad1, .cont3 .contUser5 .grad2, .cont3 .contUser5 .grad3, .cont3 .contUser5 .grad4, .cont3 .contUser5 .grad5, .cont4 .contUser1 .grad1, .cont4 .contUser1 .grad2, .cont4 .contUser1 .grad3, .cont4 .contUser1 .grad4, .cont4 .contUser1 .grad5, .cont4 .contUser2 .grad1, .cont4 .contUser2 .grad2, .cont4 .contUser2 .grad3, .cont4 .contUser2 .grad4, .cont4 .contUser2 .grad5, .cont4 .contUser3 .grad1, .cont4 .contUser3 .grad2, .cont4 .contUser3 .grad3, .cont4 .contUser3 .grad4, .cont4 .contUser3 .grad5, .cont4 .contUser4 .grad1, .cont4 .contUser4 .grad2, .cont4 .contUser4 .grad3, .cont4 .contUser4 .grad4, .cont4 .contUser4 .grad5, .cont4 .contUser5 .grad1, .cont4 .contUser5 .grad2, .cont4 .contUser5 .grad3, .cont4 .contUser5 .grad4, .cont4 .contUser5 .grad5, .cont5 .contUser1 .grad1, .cont5 .contUser1 .grad2, .cont5 .contUser1 .grad3, .cont5 .contUser1 .grad4, .cont5 .contUser1 .grad5, .cont5 .contUser2 .grad1, .cont5 .contUser2 .grad2, .cont5 .contUser2 .grad3, .cont5 .contUser2 .grad4, .cont5 .contUser2 .grad5, .cont5 .contUser3 .grad1, .cont5 .contUser3 .grad2, .cont5 .contUser3 .grad3, .cont5 .contUser3 .grad4, .cont5 .contUser3 .grad5, .cont5 .contUser4 .grad1, .cont5 .contUser4 .grad2, .cont5 .contUser4 .grad3, .cont5 .contUser4 .grad4, .cont5 .contUser4 .grad5, .cont5 .contUser5 .grad1, .cont5 .contUser5 .grad2, .cont5 .contUser5 .grad3, .cont5 .contUser5 .grad4, .cont5 .contUser5 .grad5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.555);
+  font-weight: 100;
+}
+
+.cont1 .contUser1 .name3, .cont1 .contUser1 .grad3, .cont1 .contUser1 .name5, .cont1 .contUser1 .grad5, .cont1 .contUser2 .name3, .cont1 .contUser2 .grad3, .cont1 .contUser2 .name5, .cont1 .contUser2 .grad5, .cont1 .contUser3 .name3, .cont1 .contUser3 .grad3, .cont1 .contUser3 .name5, .cont1 .contUser3 .grad5, .cont1 .contUser4 .name3, .cont1 .contUser4 .grad3, .cont1 .contUser4 .name5, .cont1 .contUser4 .grad5, .cont1 .contUser5 .name3, .cont1 .contUser5 .grad3, .cont1 .contUser5 .name5, .cont1 .contUser5 .grad5, .cont2 .contUser1 .name3, .cont2 .contUser1 .grad3, .cont2 .contUser1 .name5, .cont2 .contUser1 .grad5, .cont2 .contUser2 .name3, .cont2 .contUser2 .grad3, .cont2 .contUser2 .name5, .cont2 .contUser2 .grad5, .cont2 .contUser3 .name3, .cont2 .contUser3 .grad3, .cont2 .contUser3 .name5, .cont2 .contUser3 .grad5, .cont2 .contUser4 .name3, .cont2 .contUser4 .grad3, .cont2 .contUser4 .name5, .cont2 .contUser4 .grad5, .cont2 .contUser5 .name3, .cont2 .contUser5 .grad3, .cont2 .contUser5 .name5, .cont2 .contUser5 .grad5, .cont3 .contUser1 .name3, .cont3 .contUser1 .grad3, .cont3 .contUser1 .name5, .cont3 .contUser1 .grad5, .cont3 .contUser2 .name3, .cont3 .contUser2 .grad3, .cont3 .contUser2 .name5, .cont3 .contUser2 .grad5, .cont3 .contUser3 .name3, .cont3 .contUser3 .grad3, .cont3 .contUser3 .name5, .cont3 .contUser3 .grad5, .cont3 .contUser4 .name3, .cont3 .contUser4 .grad3, .cont3 .contUser4 .name5, .cont3 .contUser4 .grad5, .cont3 .contUser5 .name3, .cont3 .contUser5 .grad3, .cont3 .contUser5 .name5, .cont3 .contUser5 .grad5, .cont4 .contUser1 .name3, .cont4 .contUser1 .grad3, .cont4 .contUser1 .name5, .cont4 .contUser1 .grad5, .cont4 .contUser2 .name3, .cont4 .contUser2 .grad3, .cont4 .contUser2 .name5, .cont4 .contUser2 .grad5, .cont4 .contUser3 .name3, .cont4 .contUser3 .grad3, .cont4 .contUser3 .name5, .cont4 .contUser3 .grad5, .cont4 .contUser4 .name3, .cont4 .contUser4 .grad3, .cont4 .contUser4 .name5, .cont4 .contUser4 .grad5, .cont4 .contUser5 .name3, .cont4 .contUser5 .grad3, .cont4 .contUser5 .name5, .cont4 .contUser5 .grad5, .cont5 .contUser1 .name3, .cont5 .contUser1 .grad3, .cont5 .contUser1 .name5, .cont5 .contUser1 .grad5, .cont5 .contUser2 .name3, .cont5 .contUser2 .grad3, .cont5 .contUser2 .name5, .cont5 .contUser2 .grad5, .cont5 .contUser3 .name3, .cont5 .contUser3 .grad3, .cont5 .contUser3 .name5, .cont5 .contUser3 .grad5, .cont5 .contUser4 .name3, .cont5 .contUser4 .grad3, .cont5 .contUser4 .name5, .cont5 .contUser4 .grad5, .cont5 .contUser5 .name3, .cont5 .contUser5 .grad3, .cont5 .contUser5 .name5, .cont5 .contUser5 .grad5 {
+  color: #53627e;
+}
+
+.cont1 .contHeader1, .cont1 .contHeader2, .cont1 .contHeader3, .cont1 .contHeader4, .cont1 .contHeader5, .cont2 .contHeader1, .cont2 .contHeader2, .cont2 .contHeader3, .cont2 .contHeader4, .cont2 .contHeader5, .cont3 .contHeader1, .cont3 .contHeader2, .cont3 .contHeader3, .cont3 .contHeader4, .cont3 .contHeader5, .cont4 .contHeader1, .cont4 .contHeader2, .cont4 .contHeader3, .cont4 .contHeader4, .cont4 .contHeader5, .cont5 .contHeader1, .cont5 .contHeader2, .cont5 .contHeader3, .cont5 .contHeader4, .cont5 .contHeader5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding-top: 7px;
+  color: #e9e5e5;
+}
+
+.cont1 .contTxt1, .cont1 .contTxt2, .cont1 .contTxt3, .cont1 .contTxt4, .cont1 .contTxt5, .cont2 .contTxt1, .cont2 .contTxt2, .cont2 .contTxt3, .cont2 .contTxt4, .cont2 .contTxt5, .cont3 .contTxt1, .cont3 .contTxt2, .cont3 .contTxt3, .cont3 .contTxt4, .cont3 .contTxt5, .cont4 .contTxt1, .cont4 .contTxt2, .cont4 .contTxt3, .cont4 .contTxt4, .cont4 .contTxt5, .cont5 .contTxt1, .cont5 .contTxt2, .cont5 .contTxt3, .cont5 .contTxt4, .cont5 .contTxt5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.555);
+  padding-bottom: 10px;
+}
+
+.cont1 .contHeader3, .cont1 .contTxt3, .cont1 .contHeader5, .cont1 .contTxt5, .cont2 .contHeader3, .cont2 .contTxt3, .cont2 .contHeader5, .cont2 .contTxt5, .cont3 .contHeader3, .cont3 .contTxt3, .cont3 .contHeader5, .cont3 .contTxt5, .cont4 .contHeader3, .cont4 .contTxt3, .cont4 .contHeader5, .cont4 .contTxt5, .cont5 .contHeader3, .cont5 .contTxt3, .cont5 .contHeader5, .cont5 .contTxt5 {
+  color: #53627e;
+}
+/*# sourceMappingURL=styles.css.map */

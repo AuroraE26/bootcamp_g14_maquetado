@@ -1,0 +1,84 @@
+.emptyHeader{
+    background-color: black;
+    height:75px;
+}
+
+#HeaderTitle{
+    font-size: 85px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 8px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#BodyTitle{
+    font-size: 40px;
+    padding: 80px 0px 0px 120px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    //border: pink 1px solid;
+}
+
+#LSHead{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 120px;
+    color: #4b535c;
+}
+
+#LSBody{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    padding: 18px 70px 50px 120px;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height : 25px;
+    color: #687380;
+}
+
+.contMem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    //border: red 1px solid;
+}
+
+.btnMem{
+    border: rgba(131, 100, 1, 0.637) 1px solid;
+    margin-top: 30px;
+    padding:10px 50px 10px 50px;
+}
+
+.linkMem{
+    //border: pink 1px solid;
+    margin: 10px;
+    padding:10px;
+}
+
+#signIn{
+    color: rgb(100, 100, 5);
+    font-weight: 350;
+}
+
+.contImg1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+#img1{
+    height:160px;
+    width: 220px;
+
+}
+
+.emptyFooter{
+    background-color: black;
+    height:75px;
+}
+
+#contBody{
+    margin-bottom: 80px;
+}

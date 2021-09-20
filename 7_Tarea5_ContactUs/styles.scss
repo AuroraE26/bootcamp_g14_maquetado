@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(58, 76, 173);
+    //background-color: rgb(73, 84, 150);
+}
+
+.cont{
+    margin: 140px 0px 200px 200px;
+    height: 520px;
+    width: 1000px;
+    background: linear-gradient(
+        45deg, rgb(106, 120, 209), rgb(0, 164, 189));
+    border-radius: 30px;
+}
+
+.HeaderTitle{
+    //background-color: aquamarine;
+    padding: 50px 50px 50px 360px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(73, 84, 150);
+}
+
+.FNlabel, .WElabel, .WPlabel, {
+    padding-left: 80px;
+    padding-bottom: 5px;
+    color: rgb(73, 84, 150);
+}
+
+.FNinput, .WEinput, .WPinput{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.LNlabel, .Mlabel{
+    padding-left: 50px;
+    padding-bottom: 5px;
+    color: rgb(64, 74, 134);
+}
+
+.LNinput{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Minput{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.btnSend{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin:50px 10px 10px 800px ;
+    padding: 8PX 0PX 0PX 40PX;
+    background-color: rgb(73, 84, 150);
+    color:white;
+    cursor: pointer;
+    border-color: white 1px solid;
+}
