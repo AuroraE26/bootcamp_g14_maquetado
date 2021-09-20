@@ -1,0 +1,113 @@
+* {
+  Margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.contHeader {
+  background-color: #FFE600;
+  width: 100%;
+  height: 230px;
+}
+
+.contHead1 {
+  padding-left: 20px;
+}
+
+.img1 {
+  width: 150px;
+  height: 80px;
+}
+
+.form {
+  background-color: white;
+  width: 424px;
+  height: 471px;
+  margin-left: 420px;
+  border-radius: 10px;
+}
+
+.form .formContent {
+  padding: 50px 50px 10px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  width: 424px;
+  height: 471px;
+}
+
+.form .formContent .formTitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  letter-spacing: .0125rem;
+}
+
+.form .formContent .Label1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.0714285714em;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 30px 0px 5px 5px;
+}
+
+.form .formContent .mailInput {
+  padding: 10px 0px 20px 10px;
+  width: 296px;
+  height: 50px;
+  border-radius: 5px;
+  border: gray 1px solid;
+}
+
+.form .formContent .btnLogin {
+  margin-top: 30px;
+  padding: 15px 0px 15px 110px;
+  width: 296px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #3484e0;
+}
+
+.form .formContent #btnFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: azure;
+}
+
+.form .formContent .linkCrear {
+  margin-top: 10px;
+  padding: 15px 0px 15px 110px;
+  width: 296px;
+  height: 50px;
+}
+
+.form .formContent #CrearFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #3484e0;
+}
+
+.form .formContent .linkForgot {
+  margin-top: 10px;
+  padding: 50px 0px 0px 70px;
+  width: 296px;
+  height: 50px;
+}
+
+.form .formContent #ForgotFont {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #3484e0;
+}
+/*# sourceMappingURL=styles.css.map */
