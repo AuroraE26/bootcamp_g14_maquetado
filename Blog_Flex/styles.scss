@@ -1,70 +1,51 @@
+@mixin flexR {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+@mixin btnMenus {
+    background-color: #725706;
+    border-radius: 5px;
+    color: #E2AD07;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
 
 
 
 .contHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: red 1px solid;
+    @include flexR();
     border-radius: 10px;
-    height: 100px;
-    background-color: #CB0A3B;
+    height: 120px;
+    background-color: #E2AD07;
   
     .contMenus{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
+        @include flexR();   
         padding-right: 40px;
         padding-left: 40px;
-        border: red 1px solid;
         width: 500px;
     
-        .contInicio {
-            padding: 20px 0px 0px 50px;
-            width: 90px;
-            height: 40px;
-            background-color: white;
-            border-radius: 5px;
-            border: white 1px solid;
-        }
-  
-        .contAcercade{
-            padding: 20px 0px 0px 35px;
-            width: 110px;
-            height: 40px;
-            background-color: white;
-            border-radius: 5px;
-            border: white 1px solid;
-        }
-  
-        .contContacto{
-            padding: 20px 0px 0px 40px;
-            width: 100px;
-            height: 40px;
-            background-color: white;
-            border-radius: 5px;
-            border: white 1px solid;
+        .contInicio, .contAcercade, .contContacto{
+            @include btnMenus();
         }
     }
 }
 
 .contContenido{
-    //border: red 1px solid;
-    display: flex;
-    flex-direction: row;
+    @include flexR();
     .contArticulos{
-        //border: red 1px solid;
-        display: flex;
+        @include flexR();
         flex-direction: column;
-        
-
+    
         .contArt1, .contArt2{
             margin: 10px 10px 0px 0px;
             width: 900px;
             height: 250px;
-            background-color: #FF5733;
+            background-color: #F4C4B4;
             border-radius: 10px;
 
                 .HeadArt1, .HeadArt2{
@@ -82,11 +63,11 @@
 
     .contSidebar{
 
-        margin: 10px 0px 10px 0px;
+        margin: 10px 0px 0px 0px;
         background-color: #FF5733;
         height: 510px;
         border-radius: 10px;
-        //border: red 1px solid;
+        border: #FF5733 1px solid;
 
         .HeadSidebar{
             margin: 40px 10px 10px 40px;
@@ -100,8 +81,10 @@
 
 
     .contFooter{
+        margin-top: 10px;
         border-radius: 10px;
         height: 100px;
-        background-color: #CB0A3B;
+        background-color: #0D150B;
+        border: #0D150B 1px solid;
     }
 

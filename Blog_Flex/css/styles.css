@@ -9,10 +9,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: red 1px solid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 10px;
-  height: 100px;
-  background-color: #CB0A3B;
+  height: 120px;
+  background-color: #E2AD07;
 }
 
 .contHeader .contMenus {
@@ -31,35 +33,17 @@
           align-items: center;
   padding-right: 40px;
   padding-left: 40px;
-  border: red 1px solid;
   width: 500px;
 }
 
-.contHeader .contMenus .contInicio {
-  padding: 20px 0px 0px 50px;
-  width: 90px;
-  height: 40px;
-  background-color: white;
+.contHeader .contMenus .contInicio, .contHeader .contMenus .contAcercade, .contHeader .contMenus .contContacto {
+  background-color: #725706;
   border-radius: 5px;
-  border: white 1px solid;
-}
-
-.contHeader .contMenus .contAcercade {
-  padding: 20px 0px 0px 35px;
+  color: #E2AD07;
   width: 110px;
   height: 40px;
-  background-color: white;
-  border-radius: 5px;
-  border: white 1px solid;
-}
-
-.contHeader .contMenus .contContacto {
-  padding: 20px 0px 0px 40px;
-  width: 100px;
-  height: 40px;
-  background-color: white;
-  border-radius: 5px;
-  border: white 1px solid;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .contContenido {
@@ -70,23 +54,37 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contContenido .contArticulos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
 }
 
 .contContenido .contArticulos .contArt1, .contContenido .contArticulos .contArt2 {
   margin: 10px 10px 0px 0px;
   width: 900px;
   height: 250px;
-  background-color: #FF5733;
+  background-color: #F4C4B4;
   border-radius: 10px;
 }
 
@@ -100,10 +98,11 @@
 }
 
 .contSidebar {
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
   background-color: #FF5733;
   height: 510px;
   border-radius: 10px;
+  border: #FF5733 1px solid;
 }
 
 .contSidebar .HeadSidebar {
@@ -116,8 +115,10 @@
 }
 
 .contFooter {
+  margin-top: 10px;
   border-radius: 10px;
   height: 100px;
-  background-color: #CB0A3B;
+  background-color: #0D150B;
+  border: #0D150B 1px solid;
 }
 /*# sourceMappingURL=styles.css.map */
