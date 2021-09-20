@@ -1,130 +1,107 @@
+
+
+
+
 .contHeader{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     border: red 1px solid;
     border-radius: 10px;
+    height: 100px;
     background-color: #CB0A3B;
-  }
   
+    .contMenus{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 40px;
+        padding-left: 40px;
+        border: red 1px solid;
+        width: 500px;
+    
+        .contInicio {
+            padding: 20px 0px 0px 50px;
+            width: 90px;
+            height: 40px;
+            background-color: white;
+            border-radius: 5px;
+            border: white 1px solid;
+        }
   
-  .contMenus{
+        .contAcercade{
+            padding: 20px 0px 0px 35px;
+            width: 110px;
+            height: 40px;
+            background-color: white;
+            border-radius: 5px;
+            border: white 1px solid;
+        }
+  
+        .contContacto{
+            padding: 20px 0px 0px 40px;
+            width: 100px;
+            height: 40px;
+            background-color: white;
+            border-radius: 5px;
+            border: white 1px solid;
+        }
+    }
+}
+
+.contContenido{
+    //border: red 1px solid;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 40px;
-    padding-left: 40px;
-    border: red 1px solid;
-    width: 500px;
-    
-  }
-  
-  .contInicio {
-    padding: 20px 0px 0px 50px;
-    width: 90px;
-    height: 40px;
-    background-color: white;
-    border-radius: 5px;
-    border: white 1px solid;
-  }
-  
-  .contAcercade{
-    padding: 20px 0px 0px 35px;
-    width: 110px;
-    height: 40px;
-    background-color: white;
-    border-radius: 5px;
-    border: white 1px solid;
-  }
-  
-  /*
-  .contContacto{
-    padding: 20px 0px 0px 40px;
-    width: 100px;
-    height: 40px;
-    background-color: white;
-    border-radius: 5px;
-    border: white 1px solid;
-  }
-  */
-/*
-body {
-    background: #e6e6e6;
-    font-family: 'Open Sans', sans-serif, 'Times New Roman';s
-}
+    .contArticulos{
+        //border: red 1px solid;
+        display: flex;
+        flex-direction: column;
+        
 
-header,
-section.page,
-footer {
-    width: 90%;
-    margin: 20px auto;
-    max-width: 1000px;
-}
+        .contArt1, .contArt2{
+            margin: 10px 10px 0px 0px;
+            width: 900px;
+            height: 250px;
+            background-color: #FF5733;
+            border-radius: 10px;
 
-header .logo-contenedor img {
-    width: 50px;
-}
+                .HeadArt1, .HeadArt2{
+                    margin: 40px 10px 10px 40px;
+                }
 
-header nav {
-    background: #528fd5;
-    overflow: hidden;
-}
-
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    float: left;
-}
-
-header nav ul li a {
-    color: white;
-    display: block;
-    padding: 5px 15px;
-    text-decoration: none;
-}
-
-.articles {
-    width: 70%;
-    float: left;
-    margin-right: 1.5%;
-}
-
-.articles article {
-    background: #fff;
-    padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-aside {
-    width: 28.5%;
-    float: left;
-    background: #ff8000;
-    border-radius: 5px;
-}
-
-aside .sidebar {
-    color: #fff;
-    padding: 30px;
-}
-
-footer {
-    background: #000;
-    clear: both;
-}
-
-footer .footer-content {
-    color: #fff;
-    text-align: center;
-    padding: 5px;
-}
+                .BodyArt1, .BodyArt2{
+                    margin: 15px 40px 10px 40px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
 
 
-/* #articulo1 {
-    border-radius: 150px;
-} */
+    .contSidebar{
 
-/*
+        margin: 10px 0px 10px 0px;
+        background-color: #FF5733;
+        height: 510px;
+        border-radius: 10px;
+        //border: red 1px solid;
+
+        .HeadSidebar{
+            margin: 40px 10px 10px 40px;
+        }
+
+        .BodySidebar{
+            margin: 15px 40px 10px 40px;
+            text-align: justify;
+        }
+    }
+
+
+    .contFooter{
+        border-radius: 10px;
+        height: 100px;
+        background-color: #CB0A3B;
+    }
+
